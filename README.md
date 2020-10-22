@@ -36,6 +36,8 @@ python mot/base_case.py
 ```
 The results will be saved in mot/output. We provide partially the results (1 out of 10 runs due to space constraints) which lead to the values reported in the paper.
 
+For the optimization problems in Appendix E, code is provided in the folder w2_gaussian. The base and combined case are handled in w2_gaussian/combined.py and the divergence regularized case in w2_gaussian/divergence_reg10.py.
+
 
 ## Evaluation
 

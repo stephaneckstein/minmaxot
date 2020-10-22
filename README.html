@@ -534,7 +534,7 @@ pre.editor-colors .fold-marker:after {
 </style>
   </head>
   <body class='markdown-preview' data-use-github-style><h1 id="minmax-methods-for-optimal-transport-and-beyond-regularization-approximation-and-numerics">MinMax Methods for Optimal Transport and Beyond: Regularization, Approximation and Numerics</h1>
-<p>This repository explains how to reproduce the numerical experiments in Section 5 of the paper "MinMax Methods for Optimal Transport and Beyond: Regularization, Approximation and Numerics". </p>
+<p>This repository explains how to reproduce the numerical experiments in Section 5 of the paper "MinMax Methods for Optimal Transport and Beyond: Regularization, Approximation and Numerics".</p>
 <h2 id="requirements">Requirements</h2>
 <p>To run the code, we used python 3.7 and anaconda. The only non-default packages necessary are tensorflow 1.15.0, keras and matplotlib.
 An anaconda environment.yml file and requirements.txt file are included.
@@ -549,6 +549,7 @@ For the setup of the environment, if using anaconda, run</p>
 <p>For the optimization problems in Section 5.2., run the programs base_case.py, mixture_case.py, unrolling_case.py, combined_case.py within the folder mot. E.g., within the project folder, run</p>
 <pre class="editor-colors lang-optimization2"><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>python&nbsp;mot/base_case.py</span></span></div></pre>
 <p>The results will be saved in mot/output. We provide partially the results (1 out of 10 runs due to space constraints) which lead to the values reported in the paper.</p>
+<p>For the optimization problems in Appendix E, code is provided in the folder w2_gaussian. The base and combined case are handled in w2_gaussian/combined.py and the divergence regularized case in w2_gaussian/divergence_reg10.py.</p>
 <h2 id="evaluation">Evaluation</h2>
 <p>To create Figure 1 illustrating the results from Section 5.1., run</p>
 <pre class="editor-colors lang-eval1"><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>python&nbsp;dcot/figure1.py</span></span></div></pre>
